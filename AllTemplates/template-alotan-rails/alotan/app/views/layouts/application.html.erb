@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> 
+
+    <%= stylesheet_link_tag "css/animate.css" %>
+    <%= stylesheet_link_tag "css/owl.carousel.min.css" %>
+    <%= stylesheet_link_tag "css/magnific-popup.css" %>
+
+    <%= stylesheet_link_tag "fonts/ionicons/css/ionicons.min.css" %>
+    <%= stylesheet_link_tag "fonts/fontawesome/css/font-awesome.min.css" %>
+    <%= stylesheet_link_tag "fonts/flaticon/font/flaticon.css" %>
+    
+
+    <!-- Theme Style -->
+    <%= stylesheet_link_tag "css/style.css" %>
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+
+  <%= javascript_include_tag "js/jquery-migrate-3.0.0.js" %>
+  <%= javascript_include_tag "js/popper.min.js" %>
+  <%= javascript_include_tag "js/owl.carousel.min.js" %>
+  <%= javascript_include_tag "js/jquery.waypoints.min.js" %>
+  <%= javascript_include_tag "js/jquery.stellar.min.js" %>
+  <%= javascript_include_tag "js/jquery.magnific-popup.min.js" %>
+  <%= javascript_include_tag "js/magnific-popup-options.js" %>
+  <%= javascript_include_tag "js/main.js" %>
+
+</html>
